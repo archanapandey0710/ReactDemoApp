@@ -3,14 +3,16 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./container/App";
 import * as serviceWorker from "./serviceWorker";
+
 //redux config
 import store from "./store";
 import { Provider } from "react-redux";
+
 //locale config
 import i18n from "./locale/i18n";
 import { I18nextProvider } from "react-i18next";
 
-alert(process.env.REACT_APP_NAME + process.env.REACT_APP_VERSION);
+// alert(process.env.REACT_APP_NAME + process.env.REACT_APP_VERSION);
 
 ReactDOM.render(
   <Provider store={store}>

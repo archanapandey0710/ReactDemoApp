@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
+
 class Dashboard extends Component {
   state = {};
   onHandle = () => {
@@ -8,9 +11,10 @@ class Dashboard extends Component {
     return (
       <React.Fragment>
         <h1>Hi i am Dashboard</h1>
-        <button class="btn btn-primary" onClick={this.onHandle}>
+        <Button variant="outlined" color="secondary" onClick={this.onHandle}>
+          {" "}
           Customer Tab!
-        </button>
+        </Button>
       </React.Fragment>
     );
   }
