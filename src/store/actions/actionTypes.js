@@ -1,0 +1,13 @@
+//Employees Actions Type
+export const GET_EMPLOYEES = "GET_EMPLOYEES";
+export const GET_EMPLOYEE_BY_ID = "GET_EMPLOYEE_BY_ID";
+export const SAVE_EMPLOYEE = "SAVE_EMPLOYEE";
+export const UPDATE_EMPLOYEE = "UPDATE_EMPLOYEE";
+export const DELETE_EMPLOYEE = "DELETE_EMPLOYEE";
+
+//Customers Actions Type
+export const GET_CUSTOMERS = "GET_CUSTOMERS";
+export const GET_CUSTOMER_BY_ID = "GET_CUSTOMER_BY_ID";
+export const SAVE_CUSTOMER = "SAVE_CUSTOMER";
+export const UPDATE_CUSTOMER = "UPDATE_CUSTOMER";
+export const DELETE_CUSTOMER = "DELETE_CUSTOMER";
